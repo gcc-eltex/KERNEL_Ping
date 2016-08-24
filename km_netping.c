@@ -4,7 +4,7 @@ MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Ivannikov Igor");
 
 static unsigned int nf_hookpack(void *priv, struct sk_buff *skb,
-		       const struct nf_hook_state *state)
+				const struct nf_hook_state *state)
 {
 	/* Input headers (request) */
 	struct ethhdr	*eth;
